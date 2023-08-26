@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HackathonPractice</string>
+    <string name="usernamePlacehodler">Enter Username</string>
+    <string name="passwordPlacehodler">Enter Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="forgotpassword">FORGOT PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="createaccount">CREATE ACCOUNT</string>
+    <string name="fullname">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="net_button">NEXT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

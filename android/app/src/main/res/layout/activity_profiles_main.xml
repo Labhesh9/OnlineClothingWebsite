@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:padding="30dp"
+    tools:context=".activity.ProfilesMainActivity">
+
+
+    <ImageView
+
+        android:onClick="back"
+        android:id="@+id/signup_back_buttom"
+        android:padding="5dp"
+        android:src="@drawable/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_back_arrow_btn"
+        />
+    <TextView
+        android:id="@+id/signup_title_text"
+        android:layout_marginTop="10dp"
+        android:text="profiles"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/muli_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_title_text"
+        />
+
+    <TextView
+        android:id="@+id/txtFirstname"
+        android:layout_marginTop="10dp"
+        android:text="profiles"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_title_text"
+        />
+    <TextView
+        android:id="@+id/txtLastname"
+        android:layout_marginTop="10dp"
+        android:text="profiles"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_title_text"/>
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_marginTop="10dp"
+        android:text="profiles"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_title_text"
+        />
+    <TextView
+        android:id="@+id/txtUsername"
+        android:layout_marginTop="10dp"
+        android:text="profiles"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_title_text"
+        />
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_marginTop="10dp"
+        android:text="profiles"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="transition_title_text"
+        />
+
+    <Button
+
+        android:id="@+id/signup_next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="back"
+        android:background="@color/black"
+        app:backgroundTint="@null"
+        android:text="BACK"
+        android:elevation="5dp"
+        android:transitionName="transition_next_btn"
+        />
+
+</LinearLayout>
